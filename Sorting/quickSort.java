@@ -1,7 +1,6 @@
 class Solution {
     // Function to sort an array using quick sort algorithm.
     static void quickSort(int arr[], int low, int high) {
-        
         int j;
         if(low<high)
         {
@@ -12,7 +11,6 @@ class Solution {
     }
 
     static int partition(int arr[], int low, int high) {
-        // your code here
         int pivot = arr[low];
         int i=low+1;
         int j=high ;
