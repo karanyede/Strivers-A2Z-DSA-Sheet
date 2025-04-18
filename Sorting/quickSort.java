@@ -24,8 +24,7 @@ class Solution {
                 j--;
             }
             if(i<j)
-            {
-                // swap arr[i] and arr[j
+            { // swap arr[i] and arr[j]
                 temp = arr[i];
                 arr[i] = arr[j];
                 arr[j]= temp;
